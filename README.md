@@ -1,7 +1,7 @@
 ## Carbon assessment with machine learning
 
 This is code repository accompanying the following paper published in WWW 2023 -- \
-CaML: Carbon Footprinting of Household Products with Zero-Shot Semantic Text Similarity
+CaML: Carbon Footprinting of Household Products with Zero-Shot Semantic Text Similarity \
 Bharathan Balaji, Venkata Sai Gargeya Vunnava, Geoffrey Guest, Jared Kramer
 
 ## Task: Automation of emission impact factor (EIF) mapping
