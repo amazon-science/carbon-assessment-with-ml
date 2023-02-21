@@ -1,0 +1,5 @@
+Copyright ${THIS_YEAR} Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+
+This project is licensed under the terms of the Apache 2.0 license. See `LICENSE`.
+
+Included datasets are licensed under the terms of the CDLA Permissive license, version 1.0. See `LICENSE-DATA`.
