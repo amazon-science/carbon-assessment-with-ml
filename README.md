@@ -25,7 +25,7 @@ pip install -e .
 ```
 
 ## Getting Started
-Follow the code in notebooks directory
+Follow the code in `notebooks/evaluate_caml.ipynb`. 
 
 ## Dataset
 The dataset consists of retail products mapped to North American Industry Classification System (NAICS) codes. The
