@@ -8,6 +8,6 @@ annotation_file_name = "../data/6k_grocery_products_annotations.pkl"
 ## ML model configuration
 # Models from the following link: https://www.sbert.net/
 # Small model, 120MB in size. Use for testing
-model_name = 'paraphrase-MiniLM-L12-v2' 
+# model_name = 'paraphrase-MiniLM-L12-v2' 
 # Largest model available at the time of writing, 420MB. 
-# model_name = 'all-mpnet-base-v2' # large model
+model_name = 'all-mpnet-base-v2' # large model
