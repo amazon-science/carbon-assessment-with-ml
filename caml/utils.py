@@ -1,6 +1,7 @@
 import re
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 
 def utils_preprocess_text(
