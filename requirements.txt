@@ -9,3 +9,5 @@ sentence-transformers==2.2.2
 tqdm==4.64.1
 nltk==3.8.1
 awscli==1.25.60
+openpyxl==3.1.2
+xlrd==2.0.1
