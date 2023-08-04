@@ -19,6 +19,11 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+## Getting Started
+Follow the code in `notebooks` folder.
+For EIO-LCA use: `notebooks/eio/demo.ipynb`
+for process LCA use: `notebooks/process/generate_ranked_preds.ipynb` 
+
 ## Dataset
 The dataset is for research purposes only, and is not indicative of Amazon’s business use for carbon footprinting.
 
