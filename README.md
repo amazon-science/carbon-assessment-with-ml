@@ -6,7 +6,7 @@ This code repository presents a machine learning based method for selection of a
 Bharathan Balaji, Venkata Sai Gargeya Vunnava, Geoffrey Guest, Jared Kramer
 
 2. EIF matching for Process LCA, published in [ACM JCSS](https://dl.acm.org/journal/acmjcss) -- \
-Flamingo: Environmental Impact Factor Matching for Life Cycle Assessment with Zero-Shot Machine Learning \ 
+[Flamingo: Environmental Impact Factor Matching for Life Cycle Assessment with Zero-Shot Machine Learning](https://www.amazon.science/publications/flamingo-environmental-impact-factor-matching-for-life-cycle-assessment-with-zero-shot-machine-learning) \ 
 Bharathan Balaji, Venkata Sai Gargeya Vunnava, Shikhar Gupta, Nina Domingo, Harsh Gupta, Geoffrey Guest, Aravind Srinivasan
 
 ## Installation
@@ -52,6 +52,7 @@ Below is the BibTeX text, if you would like to cite our work.
  author = {Bharathan Balaji and Venkata Sai Gargeya Vunnava and Shikhar Gupta and Nina Domingo and Harsh Gupta and Geoffrey Guest and Aravind Srinivasan},
  title = {Flamingo: Environmental Impact Factor Matching for Life Cycle Assessment with Zero-Shot Machine Learning},
  year = {2023},
+ url = {https://www.amazon.science/publications/flamingo-environmental-impact-factor-matching-for-life-cycle-assessment-with-zero-shot-machine-learning}
  booktitle = {ACM Journal on Computing and Sustainable Societies},
 }
 ```
