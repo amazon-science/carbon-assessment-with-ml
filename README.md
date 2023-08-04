@@ -20,8 +20,8 @@ pip install -e .
 ```
 
 ## Getting Started
-Follow the code in `notebooks` folder.
-For EIO-LCA use: `notebooks/eio/demo.ipynb`
+Follow the code in `notebooks` folder.\
+For EIO-LCA use: `notebooks/eio/demo.ipynb`\
 for process LCA use: `notebooks/process/generate_ranked_preds.ipynb` 
 
 ## Dataset
