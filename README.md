@@ -10,7 +10,7 @@ Bharathan Balaji, Venkata Sai Gargeya Vunnava, Geoffrey Guest, Jared Kramer
 Bharathan Balaji, Venkata Sai Gargeya Vunnava, Shikhar Gupta, Nina Domingo, Harsh Gupta, Geoffrey Guest, Aravind Srinivasan
 
 ## Installation
-Required packages are given `requirements.txt`
+Required packages are given in `requirements.txt`
 Run the following commands to install the package:
 ```
 git clone https://github.com/amazon-science/carbon-assessment-with-ml.git
