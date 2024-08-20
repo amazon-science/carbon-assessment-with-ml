@@ -7,7 +7,7 @@ s3fs==2023.1.0
 scikit-learn==1.5.0
 sentence-transformers==2.2.2
 tqdm==4.66.3
-nltk==3.8.1
+nltk==3.9
 awscli==1.25.60
 openpyxl==3.1.2
 xlrd==2.0.1
