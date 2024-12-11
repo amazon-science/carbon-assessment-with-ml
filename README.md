@@ -9,6 +9,10 @@ Bharathan Balaji, Venkata Sai Gargeya Vunnava, Geoffrey Guest, Jared Kramer
 [Flamingo: Environmental Impact Factor Matching for Life Cycle Assessment with Zero-Shot Machine Learning](https://www.amazon.science/publications/flamingo-environmental-impact-factor-matching-for-life-cycle-assessment-with-zero-shot-machine-learning) 
 Bharathan Balaji, Venkata Sai Gargeya Vunnava, Shikhar Gupta, Nina Domingo, Harsh Gupta, Geoffrey Guest, Aravind Srinivasan
 
+3. EIF matching with generative AI, published in [CCAI@NeurIPS 2024](https://www.climatechange.ai/) -- \
+   [Parakeet: Emission Factor Recommendation for Carbon Footprinting with Generative AI](https://www.amazon.science/publications/parakeet-emission-factor-recommendation-for-carbon-footprinting-with-generative-ai) \
+Bharathan Balaji, Fahimeh Ebrahimi, Nina Domingo, Gargeya Vunnava, Abu-Zaher Faridee, Soma Ramalingam, Shikhar Gupta, Anran Wang, Harsh Gupta, Domenic Belcastro, Kellen Axten, Jeremie Hakian, Jared Kramer
+
 ## Installation
 Required packages are given in `requirements.txt`
 Run the following commands to install the package:
@@ -23,6 +27,34 @@ pip install -e .
 Follow the code in `notebooks` folder.\
 For EIO-LCA use: `notebooks/eio/demo.ipynb`\
 for process LCA use: `notebooks/process/generate_ranked_preds.ipynb` 
+
+## Parakeet 
+For running the code, you must have an AWS account to call bedrock. 
+
+Create a `User` in your AWS account with your own key `id` and `key` following these steps
+```
+AWS Console -> IAM -> Users -> Create user -> provide user name -> attach policies directly -> 
+    AmazonSageMakerFullAccess
+    AmazonS3FullAccess
+    AmazonBedrockFullAccess
+    -> Create user
+AWS Console -> IAM -> Users -> [username] -> Access key 1/create access key -> Local code -> Set description (eifmap) -> copy the "Access Key" and "Secret Access Key"
+```
+
+Add these entries in `~/.aws/credentials` file.
+
+```
+[AWS_Account_Name]
+aws_access_key_id=XXX
+aws_secret_access_key=YYY
+
+```
+Demo scripts are in the `scripts` folder. Be sure to modify the `OUTPUT_FILE` variable in order to avoid overwritting your results.
+```
+cd parakeet/scripts
+./generate_ranked_preds_eio.sh # for EEIO
+./generate_ranked_preds_pLCA.sh # for pLCA
+```
 
 ## Dataset
 The dataset is for research purposes only, and is not indicative of Amazon’s business use for carbon footprinting.
@@ -59,5 +91,15 @@ Below is the BibTeX text, if you would like to cite our work.
  year = {2023},
  url = {https://www.amazon.science/publications/flamingo-environmental-impact-factor-matching-for-life-cycle-assessment-with-zero-shot-machine-learning}
  booktitle = {ACM Journal on Computing and Sustainable Societies},
+}
+```
+
+```
+@Inproceedings{Balaji2024,
+ author = {Bharathan Balaji and Fahimeh Ebrahimi and Nina Domingo and Gargeya Vunnava and Abu-Zaher Faridee and Soma Ramalingam and Shikhar Gupta and Anran Wang and Harsh Gupta and Domenic Belcastro and Kellen Axten and Jeremie Hakian and Jared Kramer},
+ title = {Parakeet: Emission factor recommendation for carbon footprinting with generative AI},
+ year = {2024},
+ url = {https://www.amazon.science/publications/parakeet-emission-factor-recommendation-for-carbon-footprinting-with-generative-ai},
+ booktitle = {NeurIPS 2024 Workshop on Tackling Climate Change with Machine Learning},
 }
 ```
