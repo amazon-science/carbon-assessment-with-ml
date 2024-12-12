@@ -11,7 +11,7 @@ Bharathan Balaji, Venkata Sai Gargeya Vunnava, Shikhar Gupta, Nina Domingo, Hars
 
 3. EIF matching with generative AI, published in [CCAI@NeurIPS 2024](https://www.climatechange.ai/) -- \
    [Parakeet: Emission Factor Recommendation for Carbon Footprinting with Generative AI](https://www.amazon.science/publications/parakeet-emission-factor-recommendation-for-carbon-footprinting-with-generative-ai) \
-Bharathan Balaji, Fahimeh Ebrahimi, Nina Domingo, Gargeya Vunnava, Abu-Zaher Faridee, Soma Ramalingam, Shikhar Gupta, Anran Wang, Harsh Gupta, Domenic Belcastro, Kellen Axten, Jeremie Hakian, Jared Kramer
+Bharathan Balaji, Fahimeh Ebrahimi, Nina Domingo, Gargeya Vunnava, Abu-Zaher Faridee, Soma Ramalingam, Shikha Gupta, Anran Wang, Harsh Gupta, Domenic Belcastro, Kellen Axten, Jeremie Hakian, Aravind Srinivasan, Qingshi Tu, Jared Kramer
 
 ## Installation
 Required packages are given in `requirements.txt`
