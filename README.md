@@ -24,11 +24,19 @@ pip install -e .
 ```
 
 ## Getting Started
-Follow the code in `notebooks` folder.\
-For EIO-LCA use: `notebooks/eio/demo.ipynb`\
-for process LCA use: `notebooks/process/generate_ranked_preds.ipynb` 
+For EIO-LCA use: `caml/demo.ipynb`\
+for process LCA use: `flamingo/process/generate_ranked_preds.ipynb` 
 
 ## Parakeet 
+Create+activate conda environment with Python 3.11.7.
+```
+conda create --name parakeetenv python=3.11.7
+conda activate parakeetenv
+```
+Install the packages
+```
+pip install -r parakeet/requirements.txt
+```
 For running the code, you must have an AWS account to call bedrock. 
 
 Create a `User` in your AWS account with your own key `id` and `key` following these steps
