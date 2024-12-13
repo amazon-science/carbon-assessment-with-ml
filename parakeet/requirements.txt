@@ -104,7 +104,7 @@ SQLAlchemy==2.0.30
 srsly==2.4.8
 sse-starlette==1.8.2
 stack-data==0.6.3
-starlette==0.37.2
+starlette==0.40.0
 sympy==1.12.1
 tenacity==8.3.0
 thinc==8.2.4
