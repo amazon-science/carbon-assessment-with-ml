@@ -1,17 +1,17 @@
 ## Carbon assessment with machine learning
 This code repository presents a machine learning based method for selection of an Environmental Impact Factor (EIF) for a given product, material, or activity, which is a fundamental step of carbon footprinting. The code documents the methods in the following research papers.
 
-1. EIF matching for EIO-LCA, published in [WWW 2023](https://www2023.thewebconf.org/calls/special-tracks/web4good/) -- \
-[CaML: Carbon Footprinting of Household Products with Zero-Shot Semantic Text Similarity](https://www.amazon.science/publications/caml-carbon-footprinting-of-household-products-with-zero-shot-semantic-text-similarity) \
-Bharathan Balaji, Venkata Sai Gargeya Vunnava, Geoffrey Guest, Jared Kramer
+1. EIF matching with generative AI, published in [CCAI@NeurIPS 2024](https://www.climatechange.ai/) -- \
+   [Parakeet: Emission Factor Recommendation for Carbon Footprinting with Generative AI](https://www.amazon.science/publications/parakeet-emission-factor-recommendation-for-carbon-footprinting-with-generative-ai) \
+Bharathan Balaji, Fahimeh Ebrahimi, Nina Domingo, Gargeya Vunnava, Abu-Zaher Faridee, Soma Ramalingam, Shikha Gupta, Anran Wang, Harsh Gupta, Domenic Belcastro, Kellen Axten, Jeremie Hakian, Aravind Srinivasan, Qingshi Tu, Jared Kramer
 
 2. EIF matching for Process LCA, published in [ACM JCSS](https://dl.acm.org/journal/acmjcss) -- \
 [Flamingo: Environmental Impact Factor Matching for Life Cycle Assessment with Zero-Shot Machine Learning](https://www.amazon.science/publications/flamingo-environmental-impact-factor-matching-for-life-cycle-assessment-with-zero-shot-machine-learning) 
 Bharathan Balaji, Venkata Sai Gargeya Vunnava, Shikhar Gupta, Nina Domingo, Harsh Gupta, Geoffrey Guest, Aravind Srinivasan
 
-3. EIF matching with generative AI, published in [CCAI@NeurIPS 2024](https://www.climatechange.ai/) -- \
-   [Parakeet: Emission Factor Recommendation for Carbon Footprinting with Generative AI](https://www.amazon.science/publications/parakeet-emission-factor-recommendation-for-carbon-footprinting-with-generative-ai) \
-Bharathan Balaji, Fahimeh Ebrahimi, Nina Domingo, Gargeya Vunnava, Abu-Zaher Faridee, Soma Ramalingam, Shikha Gupta, Anran Wang, Harsh Gupta, Domenic Belcastro, Kellen Axten, Jeremie Hakian, Aravind Srinivasan, Qingshi Tu, Jared Kramer
+3. EIF matching for EIO-LCA, published in [WWW 2023](https://www2023.thewebconf.org/calls/special-tracks/web4good/) -- \
+[CaML: Carbon Footprinting of Household Products with Zero-Shot Semantic Text Similarity](https://www.amazon.science/publications/caml-carbon-footprinting-of-household-products-with-zero-shot-semantic-text-similarity) \
+Bharathan Balaji, Venkata Sai Gargeya Vunnava, Geoffrey Guest, Jared Kramer
 
 ## Installation
 Required packages are given in `requirements.txt`
