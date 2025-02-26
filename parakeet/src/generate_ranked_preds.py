@@ -348,7 +348,7 @@ def main(
                             **impact_factor_details,
                             "justification": (best_eif_response[0]["justification"] if lca_type == "process" else naics_response[0]["justification"]),
                             "EIF dataset": (reference_filter if lca_type == "process" else "USEEIO v2.0, SupplyChainGHGEmissionFactors_v1.2"),
-                            "mapping_strategy": "EIFMap v1.2+re-ranker",
+                            "mapping_strategy": "Parakeet",
                             "datetime": datetime.now(timezone.utc).strftime("%Y-%m-%d"),  
                         },
                     }
