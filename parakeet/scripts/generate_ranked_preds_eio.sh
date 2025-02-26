@@ -1,8 +1,8 @@
 #!/bin/zsh
 LCA_TYPE="eio"
-ACTIVITY_FILE="../../caml/activity_data.csv"
-ACTIVITY_COL="['activity_description']"
-OUTPUT_FILE="../data/predictions/parakeet_eioLCA_activity_data_preds"
+ACTIVITY_FILE="../data/raw/parakeet_austin.csv"
+ACTIVITY_COL="['COMMODITY_DESCRIPTION']"
+OUTPUT_FILE="../data/predictions/parakeet_austin_preds"
 export AWS_PROFILE="AWS_Account_Name" 
 export AWS_REGION="AWS_Region" 
 
