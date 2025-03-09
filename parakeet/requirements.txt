@@ -33,7 +33,7 @@ idna==3.7
 ipdb==0.13.13
 ipython==8.25.0
 jedi==0.19.1
-Jinja2==3.1.4
+Jinja2==3.1.6
 jmespath==1.0.1
 joblib==1.4.2
 jsonpatch==1.33
