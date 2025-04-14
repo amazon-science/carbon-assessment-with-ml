@@ -46,7 +46,7 @@ AWS Console -> IAM -> Users -> Create user -> provide user name -> attach polici
     AmazonS3FullAccess
     AmazonBedrockFullAccess
     -> Create user
-AWS Console -> IAM -> Users -> [username] -> Access key 1/create access key -> Local code -> Set description (eifmap) -> copy the "Access Key" and "Secret Access Key"
+AWS Console -> IAM -> Users -> [username] -> Access key 1/create access key -> Local code -> Set description (parakeet) -> copy the "Access Key" and "Secret Access Key"
 ```
 
 Add these entries in `~/.aws/credentials` file.
