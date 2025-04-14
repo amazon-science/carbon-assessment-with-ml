@@ -29,7 +29,7 @@ AWS Console -> IAM -> Users -> Create user -> provide user name -> attach polici
     AmazonS3FullAccess
     AmazonBedrockFullAccess
     -> Create user
-AWS Console -> IAM -> Users -> [username] -> Access key 1/create access key -> Local code -> Set description (eifmap) -> copy the "Access Key" and "Secret Access Key"
+AWS Console -> IAM -> Users -> [username] -> Access key 1/create access key -> Local code -> Set description (parakeet) -> copy the "Access Key" and "Secret Access Key"
 ```
 
 Add these entries in `~/.aws/credentials` file.
@@ -43,8 +43,8 @@ aws_secret_access_key=YYY
 ## Getting Started
 Make sure you have these folders:
 ```
-EifmapNext/data/raw/
-EifmapNext/data/predictions/
+parakeet/data/raw/
+parakeet/data/predictions/
 ```
 
 Demo scripts are in the `scripts` folder. Be sure to modify the `OUTPUT_FILE` variable in order to avoid overwritting your results.
