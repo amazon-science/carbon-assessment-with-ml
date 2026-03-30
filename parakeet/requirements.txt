@@ -76,7 +76,7 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
 pydantic==2.7.4
 pydantic_core==2.18.4
-Pygments==2.18.0
+Pygments==2.20.0
 pyproject-toml==0.0.10
 python-dateutil==2.9.0.post0
 pytz==2024.1
